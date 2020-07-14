@@ -15,3 +15,5 @@ Facial Emotions are one of the most important aspects of human communication. Fa
 
 - Face detection part is done using OpenCV(Open Source Computer Vision) where the face detection classifiers automatically detects faces and draws boundary boxes around them to analyze. Here OpenCV is opted because, it mainly used for Image Processing, like read or write images, face detection and its features, text recognition in images, detection of shapes, modifying the image quality and colors, for developing augmented reality apps. 
 Once the development of visual expression recognition model is done in keras, we train the network using the dataset from Kaggle – facial expression dataset. Once the model is trained and saved, we deploy the model by testing with real time human images and make it functional for further developments. All these are implemented in Jupyter Notebook through Anaconda Navigator. 
+
+## Installation
