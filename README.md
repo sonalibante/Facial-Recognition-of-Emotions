@@ -14,8 +14,16 @@ Facial Emotions are one of the most important aspects of human communication. Fa
 - CNN is primarily used here because, it is one of the popular Deep Artificial Neural Networks which are majorly used in image recognition, image clustering and classification, object detection. CNN uses relatively less preprocessing when compared with the other algorithms of image processing. CNN consists of different layers. There are input layer and output layer. Between these layers there are some multiple hidden layers. There is no limitation for hidden layers present in the network. Input layer takes the input and train specifically and gives output from the output layer. With the help of CNN, we can use the large amount of data with more effectively and accurately.
 
 - Face detection part is done using OpenCV(Open Source Computer Vision) where the face detection classifiers automatically detects faces and draws boundary boxes around them to analyze. Here OpenCV is opted because, it mainly used for Image Processing, like read or write images, face detection and its features, text recognition in images, detection of shapes, modifying the image quality and colors, for developing augmented reality apps. 
-Once the development of visual expression recognition model is done in keras, we train the network using the dataset from Kaggle – facial expression dataset. Once the model is trained and saved, then it is deployed with web interface using Flask to make predictions for inference and make it functional for further developments. 
+Once the development of visual expression recognition model is done in keras, we train the network using the dataset from Kaggle – facial expression dataset. Once the model is trained and saved, then it is deployed with web interface using Flask to make predictions for inference and make it functional for further developments. A video can be fed, where it detects emotions in that. Webcam can also be accessed where it detects Facial emotions through live faces.
 
 - All these are implemented in Jupyter Notebook through Anaconda Navigator. 
 
-## Installation
+## REQUIREMENTS
+
+- Use Anaconda Navigator https://www.anaconda.com/products/individual. 
+- To train the model, use Google Colab. https://colab.research.google.com/ if there is no powerful GPU available in your personal computer.
+
+## INSTALLATION
+
+
+
