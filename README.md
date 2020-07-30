@@ -20,10 +20,24 @@ Once the development of visual expression recognition model is done in keras, we
 
 ## REQUIREMENTS
 
-- Use Anaconda Navigator https://www.anaconda.com/products/individual. 
+- Use Anaconda Navigator https://www.anaconda.com/products/individual. Prefer Graphical Installer while download.
 - To train the model, use Google Colab. https://colab.research.google.com/ if there is no powerful GPU available in your personal computer.
 
 ## INSTALLATION
+
+* Anaconda Navigator - Then launch Jupyter Notebook to code
+* Create your own virtual environment. Follow the below link for set up
+``` https://docs.anaconda.com/anaconda/navigator/getting-started/ ```
+* Install the libraries.
+    - Python version 3.6 and above
+    - Keras
+    - Tensorflow
+    - Numpy
+    - Pandas
+    - Matplotlib
+    - OpenCV
+    - Flask
+
 
 
 
