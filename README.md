@@ -1,4 +1,5 @@
 # Software Engineering Project
+# Facial Recognition of Emotions
 This is a project for CS5394 Summer 2020 class
 
 ## Abstract
