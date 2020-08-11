@@ -17,7 +17,7 @@ Facial Emotions are one of the most important aspects of human communication. Fa
 - Face detection part is done using OpenCV(Open Source Computer Vision) where the face detection classifiers automatically detects faces and draws boundary boxes around them to analyze. Here OpenCV is opted because, it mainly used for Image Processing, like read or write images, face detection and its features, text recognition in images, detection of shapes, modifying the image quality and colors, for developing augmented reality apps. 
 Once the development of visual expression recognition model is done in keras, we train the network using the dataset from Kaggle – facial expression dataset. Once the model is trained and saved, then it is deployed with web interface using Flask to make predictions for inference and make it functional for further developments. A video can be fed, where it detects emotions in that. Webcam can also be accessed where it detects Facial emotions through live faces.
 
-- All these are implemented in Jupyter Notebook through Anaconda Navigator. 
+- All these can be implemented in Jupyter Notebook through Anaconda Navigator or through Google Colab. 
 
 ## REQUIREMENTS
 
@@ -32,12 +32,22 @@ Once the development of visual expression recognition model is done in keras, we
 * Install the libraries.
     - Python version 3.6 and above
     - Keras
-    - Tensorflow
+    - Tensorflow 2.0.0 and above
     - Numpy
     - Pandas
     - Matplotlib
     - OpenCV
     - Flask
+    
+  ## TO RUN THE PROJECT
+  
+  - In the Anaconda Navigator, create a virtual environment with Keras, Tensorflow, OpenCV and Flask installed
+  - Then in Command Prompt/Terminal type `pip install pipenv`
+  - `pipenv install`
+  - `python main.py`
+  - Then go to any web browser like Google Chrome, type localhost:5000, to see the output.
+  - Change camera.py file to webcam or video feed to see the respective output.
+    
 
 
 
